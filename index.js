@@ -12,7 +12,7 @@ const adminSchema = require("./Schema/adminSchema");
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://64ead51085b56b30e490dbcd--lucky-melomakarona-63ba74.netlify.app",
     credentials: true,
   })
 );
