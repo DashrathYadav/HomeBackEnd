@@ -12,7 +12,7 @@ const adminSchema = require("./Schema/adminSchema");
 https://zingy-dolphin-2895
 app.use(
   cors({
-    origin: "https://homerent.netlify.app/",
+    origin: "https://homerent.netlify.app",
     credentials: true,
   })
 );  
