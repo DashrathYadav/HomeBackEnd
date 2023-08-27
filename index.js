@@ -9,10 +9,11 @@ const cookieParser = require("cookie-parser");
 const roomRoutes = require("./Routes/roomRoutes");
 const tenantRoutes = require("./Routes/tenantRoutes");
 const adminSchema = require("./Schema/adminSchema");
-https://zingy-dolphin-2895
+// 
+// https://homerent.netlify.app
 app.use(
   cors({
-    origin: "https://homerent.netlify.app",
+    origin:"https://homerent.netlify.app",
     credentials: true,
   })
 );  
