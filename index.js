@@ -9,7 +9,7 @@ const cookieParser = require("cookie-parser");
 const roomRoutes = require("./Routes/roomRoutes");
 const tenantRoutes = require("./Routes/tenantRoutes");
 const adminSchema = require("./Schema/adminSchema");
-
+https://zingy-dolphin-2895
 app.use(
   cors({
     origin: "https://zingy-dolphin-28953c.netlify.app",
