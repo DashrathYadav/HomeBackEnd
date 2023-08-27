@@ -12,7 +12,7 @@ const adminSchema = require("./Schema/adminSchema");
 
 app.use(
   cors({
-    origin: "https://glittering-banoffee-b77b5b.netlify.app",
+    origin: "https://clinquant-syrniki-c014ba.netlify.app",
     credentials: true,
   })
 );
