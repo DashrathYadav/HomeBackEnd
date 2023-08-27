@@ -12,10 +12,12 @@ const adminSchema = require("./Schema/adminSchema");
 
 app.use(
   cors({
-    origin: "https://rent-6sqf.onrender.com",
+    origin: "https://clinquant-syrniki-c014ba.netlify.app",
     credentials: true,
   })
 );  
+
+
 
 mongo.connect(process.env.DB_URL_DASHRATH);
 mongo.connection.on("error", (err) => {
