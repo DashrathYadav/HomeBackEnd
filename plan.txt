@@ -3,3 +3,6 @@
 -> cross polic setting during deployment.(Done)
 
 -> Authentication with admin tag and token both.
+
+
+authentication during create tenent
